@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import StickyCallButton from "@/components/layout/StickyCallButton";
+import ChatWidget from "@/components/ChatWidget";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -32,6 +33,7 @@ const App = () => (
         </Routes>
         <Footer />
         <StickyCallButton />
+        <ChatWidget />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
